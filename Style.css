@@ -1,0 +1,79 @@
+*{box-sizing:border-box;}
+#container{
+	width:1280px;
+	margin:0 auto;
+	background:white;
+	border:5px solid black;
+}
+header{
+	width:100%;
+	height:200px;
+	text-align:center;
+}
+header h1{
+	padding-top:35px;
+	display:inline-block;
+	font-size:50px;
+}
+nav{
+	border:1px solid black;
+	height:30px;
+	background:green;
+	font-size:30px;
+}
+/*Navigation menu option*/
+nav a{
+	padding-left:143px;
+	text-decoration:none;
+}
+nav a:hover{
+	color:white;
+}
+.CompanyLogo{
+	width:200px;
+	height:200px;
+	float:left;
+}
+/* images of products and description */
+.Products img{
+	width:100%;
+	height:300px;
+	float:left;
+}
+.product-box h1{
+	font-size:30px;
+	clear:both;
+}
+.product-box{
+	width:35%;
+	height:400px;
+	margin-left:10%;
+	border:1px solid black;
+	float:left;
+}
+.Contact-information{
+	background:white;
+}
+.Contact-information a{
+	text-decoration:none;
+	color:blue;
+}
+form{
+	text-align:center;
+}
+.clear{
+	clear:both;
+}
+/*Facebook Icon*/
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: White;
+}
